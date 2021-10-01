@@ -1,0 +1,14 @@
+add_newline = false
+
+[aws]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[python]
+python_binary = ["python3", "python", "python2"]
+
+[cmd_duration]
+format = 'in [$duration]($style)'
+style = '#abaebe'
