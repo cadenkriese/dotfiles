@@ -1,0 +1,15 @@
+{{- $email := "" -}}
+{{- if (hasKey . "email") -}}
+{{-   $email = .email -}}
+{{- else -}}
+{{-   $email = promptString "email" -}}
+{{- end -}}
+{{- $github_email := "" -}}
+{{- if (hasKey . "github_email") -}}
+{{-   $github_email = .github_email -}}
+{{- else -}}
+{{-   $github_email = promptString "GitHub email" -}}
+{{- end -}}
+[data]
+    email = {{ $email | quote }}
+    github_email = {{ $github_email | quote }}

@@ -1,0 +1,123 @@
+# Taps
+tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/core'
+tap 'homebrew/services'
+
+
+
+# ------ Formulae / SDKs ------
+
+# Languages
+brew 'go'
+brew 'node'
+brew 'python'
+cask 'temurin'
+
+# Development Tools
+brew 'git'
+brew 'gradle'
+brew 'maven'
+brew 'pipenv'
+brew 'poetry'
+brew 'swiftlint'
+
+# Shell
+brew 'fish'
+brew 'starship'
+
+# Miscellaneous Command Line Interfaces / Applications
+brew 'act'
+brew 'exa'
+brew 'chezmoi'
+brew 'curl'
+brew 'fabric-installer'
+brew 'gh'
+brew 'pinentry-mac'
+brew 'mas'
+brew 'neovim'
+brew 'openssl'
+brew 'speedtest-cli'
+brew 'tmux'
+brew 'vim'
+brew 'youtube-dl'
+brew 'wget'
+cask '1password-cli'
+
+# Media manipulation
+brew 'ffmpeg'
+brew 'exiftool'
+
+
+# ------ Applications ------
+
+# Art & Design
+cask 'sketch'
+cask 'blender'
+mas 'Pixelmator Pro', id: 1289583905
+mas 'Shapr3D', id: 1091675654
+mas 'Vectornator', id: 1219074514
+
+# Code Editors
+cask 'coteditor'
+cask 'docker'
+cask 'fig'
+cask 'iterm2'
+cask 'jetbrains-toolbox'
+cask 'nova'
+cask 'visual-studio-code'
+
+# Development tools
+cask 'gpg-suite-no-mail'
+cask 'proxyman'
+cask 'transmit'
+mas 'Codye', id: 1516894961
+mas 'HextEdit', id: 1557247094
+mas 'Xcode', id: 497799835
+
+# Productivity
+cask 'notion'
+cask 'raycast'
+mas 'Craft', id: 1487937127
+mas 'Fantastical', id: 975937182
+mas 'Keynote', id: 409183694
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+
+# School
+cask 'clickup'
+cask 'google-chrome'
+cask 'slack'
+mas 'Microsoft Excel', id: 462058435
+mas 'Microsoft PowerPoint', id: 462062816
+mas 'Microsoft Word', id: 462054704
+mas 'School', id: 1465687472
+mas 'Chemy', id: 1542390153
+mas 'GoodNotes', id: 1444383602
+
+# Web
+cask 'firefox-developer-edition'
+mas '1Blocker', id: 1365531024
+mas 'Grammarly for Safari', id: 1462114288
+mas 'Tampermonkey', id: 1482490089
+
+# Miscellaneous
+cask '1password-beta'
+cask 'eul'
+cask 'setapp'
+cask 'vanilla'
+mas '1Password for Safari', id: 1569813296
+mas 'Developer', id: 640199958
+mas 'Iconic', id: 1582751983
+mas 'The Unarchiver', id: 425424353
+mas 'Twitter', id: 1482454543
+
+# Social
+cask 'discord'
+cask 'zoom'
+
+# Video
+cask 'iina'
+mas 'Compressor', id: 424390742
+mas 'Final Cut Pro', id: 424389933
+mas 'Motion', id: 434290957

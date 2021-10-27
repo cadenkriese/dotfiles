@@ -1,0 +1,12 @@
+{{- if (eq .chezmoi.os "darwin") -}}
+#!/bin/bash
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew bundle --global
+
+eval $(op signin my.1password.com {{ .email }})
+
+chflags nohidden "${HOME}/Library"
+
+EOF
+{{ end -}}
