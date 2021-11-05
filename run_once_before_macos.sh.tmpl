@@ -8,5 +8,9 @@ eval $(op signin my.1password.com {{ .email }})
 
 chflags nohidden "${HOME}/Library"
 
+# iterm2 custom preferences directory
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.config/iterm2"
+defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+
 neofetch
 {{ end -}}
