@@ -2,7 +2,8 @@
 #!/bin/bash
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-brew bundle --global
+
+/opt/homebrew/bin/brew bundle --no-lock --file ~/.local/share/chezmoi/dot_Brewfile
 
 eval $(op signin my.1password.com {{ .email }})
 

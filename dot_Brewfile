@@ -1,6 +1,7 @@
 # Taps
 tap 'homebrew/bundle'
 tap 'homebrew/cask'
+tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 tap 'homebrew/services'
 
@@ -82,9 +83,6 @@ cask 'notion'
 cask 'raycast'
 mas 'Craft', id: 1487937127
 mas 'Fantastical', id: 975937182
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
 
 # School
 cask 'clickup'
