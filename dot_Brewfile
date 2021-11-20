@@ -24,7 +24,8 @@ brew 'poetry'
 brew 'swiftlint'
 
 # Shell
-brew 'fish'
+brew 'zsh'
+brew 'zsh-syntax-highlighting'
 brew 'starship'
 
 # Miscellaneous Command Line Interfaces / Applications
