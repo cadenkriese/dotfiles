@@ -705,6 +705,8 @@
 	<string>66E57CC8-7A2F-4C0C-941C-36A7723EB975</string>
 	<key>DisablePotentiallyInsecureEscapeSequences</key>
 	<false/>
+	<key>DisableTransparencyForKeyWindow</key>
+	<false/>
 	<key>DisableWindowSizeSnap</key>
 	<false/>
 	<key>DoubleClickPerformsSmartSelection</key>
@@ -853,13 +855,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.56541937589645386</real>
+				<real>0.0074403001235907595</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.9042816162109375</real>
+				<real>0.8015899658203125</real>
 				<key>Red Component</key>
-				<real>0.3450070321559906</real>
+				<real>0.00637250323779881</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
@@ -1009,13 +1011,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.859527587890625</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.99263292551040649</real>
+				<real>0.84650444261955493</real>
 				<key>Red Component</key>
-				<real>0.37597531080245972</real>
+				<real>0.013023145271070064</real>
 			</dict>
 			<key>Ansi 15 Color</key>
 			<dict>
@@ -1450,6 +1452,8 @@
 				<key>Red Component</key>
 				<real>0.74613857269287109</real>
 			</dict>
+			<key>Badge Text</key>
+			<string></string>
 			<key>Blink Allowed</key>
 			<false/>
 			<key>Blinking Cursor</key>
@@ -2131,7 +2135,7 @@
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Shortcut</key>
-			<string></string>
+			<string>A</string>
 			<key>Show Mark Indicators</key>
 			<false/>
 			<key>Show Status Bar</key>
@@ -2279,6 +2283,8 @@
 					</dict>
 				</array>
 			</dict>
+			<key>Subtitle</key>
+			<string></string>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -2287,8 +2293,10 @@
 			<string>xterm-256color</string>
 			<key>Thin Strokes</key>
 			<integer>4</integer>
+			<key>Title Components</key>
+			<integer>6</integer>
 			<key>Transparency</key>
-			<real>0.10413065159574454</real>
+			<real>0.10375831117021263</real>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
@@ -2395,7 +2403,12 @@
 	<key>TerminalVMargin</key>
 	<integer>2</integer>
 	<key>URLHandlersByGuid</key>
-	<dict/>
+	<dict>
+		<key>iterm2</key>
+		<string>66E57CC8-7A2F-4C0C-941C-36A7723EB975</string>
+	</dict>
+	<key>UseBorder</key>
+	<false/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>WindowNumber</key>
@@ -2409,7 +2422,7 @@
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
 	<false/>
 	<key>kCPKUseSystemColorPicker</key>
-	<true/>
+	<false/>
 	<key>preferIntegratedGPU</key>
 	<false/>
 </dict>

@@ -7,7 +7,8 @@
 
 eval $(op signin my.1password.com {{ .email }})
 
-chflags nohidden "${HOME}/Library"
+# Oh My Zsh
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 # iterm2 custom preferences directory
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.config/iterm2"
