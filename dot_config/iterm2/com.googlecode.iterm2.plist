@@ -2389,7 +2389,7 @@
 	<key>RetinaInlineImages</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowSessionRestoredBanner</key>
 	<true/>
 	<key>SoundForEsc</key>
