@@ -11,6 +11,11 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="/opt/homebrew/lib/ruby/gems/3.0.0/bin:$PATH"
 export PATH="/opt/homebrew/opt/python@3.9/libexec/bin:$PATH"
 export PATH="$HOME/.pub-cache/bin:$PATH"
+export ANDROID_SDK_ROOT="/opt/homebrew/share/android-commandlinetools"
+if [ -d $ANDROID_SDK_ROOT ]
+then
+  PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/platform-tools:$PATH"
+fi
 
 export ZSH="$HOME/.oh-my-zsh"
 
