@@ -11,15 +11,12 @@ tap 'homebrew/services'
 
 # Languages
 brew 'go'
-brew 'node'
 brew 'python'
 cask 'temurin'
 
-# Development Tools
+# Development tools
 brew 'git'
 brew 'gradle'
-brew 'maven'
-brew 'pipenv'
 brew 'poetry'
 brew 'swiftlint'
 
@@ -28,12 +25,11 @@ brew 'zsh'
 brew 'zsh-syntax-highlighting'
 brew 'starship'
 
-# Miscellaneous Command Line Interfaces / Applications
+# Miscellaneous command line interfaces / applications
 brew 'act'
 brew 'exa'
 brew 'chezmoi'
 brew 'curl'
-brew 'fabric-installer'
 brew 'gh'
 brew 'imagemagick'
 brew 'mas'
@@ -44,40 +40,40 @@ brew 'pinentry-mac'
 brew 'speedtest-cli'
 brew 'tmux'
 brew 'vim'
-brew 'youtube-dl'
+brew 'yt-dlp'
 brew 'wget'
 cask '1password-cli'
 
 # Media manipulation
 brew 'ffmpeg'
-brew 'exiftool'
 
 
 # ------ Applications ------
 
-# Art & Design
+# Art & design
 cask 'sketch'
 cask 'blender'
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Shapr3D', id: 1091675654
 mas 'Vectornator', id: 1219074514
 
-# Code Editors
+# Code editors
 cask 'coteditor'
-cask 'docker'
-cask 'fig'
-cask 'iterm2'
-cask 'jetbrains-toolbox'
+cask 'nova'
 cask 'visual-studio-code'
 
 # Development tools
+cask 'docker'
+cask 'fig'
 cask 'gpg-suite-no-mail'
-cask 'proxyman'
+cask 'iterm2'
+cask 'jetbrains-toolbox'
 cask 'transmit'
 mas 'Codye', id: 1516894961
 mas 'HextEdit', id: 1557247094
 
 # Productivity
+cask 'grammarly-desktop'
 cask 'notion'
 cask 'raycast'
 mas 'Fantastical', id: 975937182
@@ -92,16 +88,16 @@ mas 'School', id: 1465687472
 mas 'GoodNotes', id: 1444383602
 
 # Web
-cask 'firefox-developer-edition'
 mas '1Blocker', id: 1365531024
 mas 'Grammarly for Safari', id: 1462114288
 mas 'Tampermonkey', id: 1482490089
 
 # Miscellaneous
 cask '1password-beta'
-cask 'eul'
+cask 'stats'
 cask 'keka'
 cask 'setapp'
+cask 'replacicon'
 mas '1Password for Safari', id: 1569813296
 mas 'Developer', id: 640199958
 mas 'Iconic', id: 1582751983
