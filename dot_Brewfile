@@ -6,13 +6,13 @@ tap 'homebrew/core'
 tap 'homebrew/services'
 
 
-
 # ------ Formulae / SDKs ------
 
 # Languages
 brew 'go'
 brew 'python'
 cask 'temurin'
+brew 'rustup-init'
 
 # Development tools
 brew 'git'
@@ -81,10 +81,7 @@ mas 'Fantastical', id: 975937182
 # School
 cask 'google-chrome'
 cask 'slack'
-mas 'Microsoft Excel', id: 462058435
-mas 'Microsoft PowerPoint', id: 462062816
-mas 'Microsoft Word', id: 462054704
-mas 'School', id: 1465687472
+cask 'mactex'
 mas 'GoodNotes', id: 1444383602
 
 # Web
