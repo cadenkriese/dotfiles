@@ -1,0 +1,15 @@
+{{- if (eq .chezmoi.os "windows") -}}
+
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser
+
+try {if(Get-Command scoop){"scoop is already installed"}}
+
+Catch { irm get.scoop.sh | iex }
+
+scoop import $HOME\.local\share\chezmoi\scoopfile.json
+
+Invoke-Expression $(op signin --account my.1password.com)
+
+neofetch
+
+{{ end -}}

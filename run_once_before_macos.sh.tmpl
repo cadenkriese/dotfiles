@@ -3,7 +3,7 @@
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-/opt/homebrew/bin/brew bundle --no-lock --file ~/.local/share/chezmoi/dot_Brewfile
+/opt/homebrew/bin/brew bundle --no-lock --file ~/.local/share/chezmoi/Brewfile
 
 eval $(op signin my.1password.com {{ .email }})
 
@@ -18,5 +18,6 @@ defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 mkdir -p ~/.1password
 ln -s ~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock ~/.1password/agent.sock
 
+# TODO input paramters here in addition to neofetch config to enable pretty format on first run
 neofetch
 {{ end -}}

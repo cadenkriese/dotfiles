@@ -1,0 +1,183 @@
+{
+    "apps": [
+        {
+            "Updated": "2022-07-21T16:30:33.4398648-06:00",
+            "Name": "1password-cli",
+            "Source": "main",
+            "Info": "",
+            "Version": "2.6.0"
+        },
+        {
+            "Updated": "2022-07-16T23:13:55.7628278-06:00",
+            "Name": "7zip",
+            "Source": "main",
+            "Info": "",
+            "Version": "22.01"
+        },
+        {
+            "Updated": "2021-10-15T16:06:41.4983511-06:00",
+            "Name": "adopt8-hotspot",
+            "Source": "java",
+            "Info": "",
+            "Version": "8u272-b10"
+        },
+        {
+            "Updated": "2022-07-15T20:45:47.7385426-06:00",
+            "Name": "Cascadia-Code",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Version": "2111.01"
+        },
+        {
+            "Updated": "2022-07-28T23:43:54.1160797-06:00",
+            "Name": "chezmoi",
+            "Source": "twpayne",
+            "Info": "",
+            "Version": "2.20.0"
+        },
+        {
+            "Updated": "2022-07-24T15:51:14.1596335-06:00",
+            "Name": "ffmpeg",
+            "Source": "main",
+            "Info": "",
+            "Version": "5.1"
+        },
+        {
+            "Updated": "2022-07-26T17:16:35.3794888-06:00",
+            "Name": "gh",
+            "Source": "main",
+            "Info": "",
+            "Version": "2.14.3"
+        },
+        {
+            "Updated": "2022-07-12T19:32:15.7292584-06:00",
+            "Name": "git",
+            "Source": "main",
+            "Info": "",
+            "Version": "2.37.1.windows.1"
+        },
+        {
+            "Updated": "2022-08-01T22:45:07.6626875-06:00",
+            "Name": "go",
+            "Source": "main",
+            "Info": "",
+            "Version": "1.18.5"
+        },
+        {
+            "Updated": "2022-08-01T22:47:03.4600537-06:00",
+            "Name": "gpg4win",
+            "Source": "extras",
+            "Info": "",
+            "Version": "4.0.3"
+        },
+        {
+            "Updated": "2022-07-14T20:57:18.3027346-06:00",
+            "Name": "gradle",
+            "Source": "main",
+            "Info": "",
+            "Version": "7.5"
+        },
+        {
+            "Updated": "2021-09-22T23:55:54.9766327-06:00",
+            "Name": "innoextract",
+            "Source": "main",
+            "Info": "",
+            "Version": "1.9"
+        },
+        {
+            "Updated": "2021-09-05T02:29:26.4840485-06:00",
+            "Name": "meslo-nf-mono",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Version": "2.1.0"
+        },
+        {
+            "Updated": "2022-06-28T16:18:45.1701616-06:00",
+            "Name": "neovim",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.7.2"
+        },
+        {
+            "Updated": "2022-03-23T22:17:56.9854552-06:00",
+            "Name": "openssh",
+            "Source": "main",
+            "Info": "",
+            "Version": "8.9.1.0p1"
+        },
+        {
+            "Updated": "2022-07-12T19:33:27.9510604-06:00",
+            "Name": "rustup",
+            "Source": "main",
+            "Info": "",
+            "Version": "1.25.1"
+        },
+        {
+            "Updated": "2022-06-28T16:18:46.1360406-06:00",
+            "Name": "starship",
+            "Source": "main",
+            "Info": "",
+            "Version": "1.9.1"
+        },
+        {
+            "Updated": "2021-06-18T17:44:57.8922354-06:00",
+            "Name": "sudo",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.2020.01.26"
+        },
+        {
+            "Updated": "2022-04-27T14:51:01.7165999-06:00",
+            "Name": "temurin-jdk",
+            "Source": "java",
+            "Info": "",
+            "Version": "18.0.1-10"
+        },
+        {
+            "Updated": "2022-07-30T17:51:29.5116538-06:00",
+            "Name": "temurin17-jdk",
+            "Source": "java",
+            "Info": "",
+            "Version": "17.0.3-7"
+        },
+        {
+            "Updated": "2022-06-28T16:19:05.1710882-06:00",
+            "Name": "vim",
+            "Source": "main",
+            "Info": "",
+            "Version": "9.0"
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2022-08-01T19:42:41-06:00",
+            "Manifests": 1624
+        },
+        {
+            "Name": "java",
+            "Source": "https://github.com/ScoopInstaller/Java",
+            "Updated": "2022-08-01T04:15:41-06:00",
+            "Manifests": 226
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2022-08-01T18:36:39-06:00",
+            "Manifests": 1066
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2022-07-25T12:19:02-06:00",
+            "Manifests": 202
+        },
+        {
+            "Name": "twpayne",
+            "Source": "https://github.com/twpayne/scoop-bucket",
+            "Updated": "2022-07-28T18:32:41-06:00",
+            "Manifests": 0
+        }
+    ]
+}

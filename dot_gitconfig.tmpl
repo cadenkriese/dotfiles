@@ -2,8 +2,14 @@
 	name = Caden Kriese
 	email = {{ .github_email }}
 	signingkey = BBFCC338F75739C979E07ACB8567CFCE50431DAD
+{{ if (eq .chezmoi.os "darwin") }}
 [gpg]
 	program = /opt/homebrew/bin/gpg
+{{ end }}
+{{ if (eq .chezmoi.os "windows") }}
+[gpg]
+	program = C:\\Users\\caden\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin
+{{ end }}
 [commit]
 	gpgsign = true
 [init]
