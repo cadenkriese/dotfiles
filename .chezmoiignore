@@ -6,6 +6,7 @@ dot_config/neofetch/m1-max.png
 {{ if ne .chezmoi.os "windows" }}
 dot_config/iterm2/*
 dot_zshrc
+dot_oh-my-zsh
 empty_dot_hushlogin
 {{ end }}
 

@@ -37,8 +37,6 @@ brew 'neofetch'
 brew 'neovim'
 brew 'openssl'
 brew 'pinentry-mac'
-brew 'speedtest-cli'
-brew 'tmux'
 brew 'vim'
 brew 'yt-dlp'
 brew 'wget'
@@ -87,7 +85,6 @@ mas 'GoodNotes', id: 1444383602
 # Web
 mas '1Blocker', id: 1365531024
 mas 'Grammarly for Safari', id: 1462114288
-mas 'Tampermonkey', id: 1482490089
 
 # Miscellaneous
 cask '1password-beta'
