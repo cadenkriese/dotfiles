@@ -16,6 +16,8 @@
 	<string></string>
 	<key>ConvertDosNewlines</key>
 	<true/>
+	<key>CopySelection</key>
+	<false/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>macos-dark</key>

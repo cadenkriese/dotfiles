@@ -9,3 +9,9 @@ python_binary = ["python3", "python", "python2"]
 [cmd_duration]
 format = 'in [$duration]($style)'
 style = '#abaebe'
+
+[swift]
+symbol = '􀫊  '
+
+[nodejs]
+symbol = '🕸  '
