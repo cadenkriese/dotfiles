@@ -687,13 +687,7 @@ image_backend="iterm2"
 # NOTE: 'auto' will pick the best image source for whatever image backend is used.
 #       In ascii mode, distro ascii art will be used and in an image mode, your
 #       wallpaper will be used.
-{{- if (eq .chezmoi.os "darwin") -}}
-    image_source="~/.local/share/chezmoi/dot_config/neofetch/m1-max.png"
-{{ end -}}
-
-{{- if (eq .chezmoi.os "windows") -}}
-    image_source="auto"
-{{ end -}}
+image_source="auto"
 
 
 # Ascii Options
