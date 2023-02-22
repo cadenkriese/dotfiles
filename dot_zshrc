@@ -28,7 +28,7 @@ alias md="open /Applications/Markdown\ Editor.app/"
 # The sequences of '\'' are to insert a literal '
 alias cdf='cd "$(osascript \
 	-e '\''tell application "Finder"'\'' \
-	-e '\''return POSIX path of (insertion location as alias)'\''
+	-e '\''return POSIX path of (insertion location as alias)'\'' \
 	-e '\''end tell'\'')"'
 
 # History cleaning
