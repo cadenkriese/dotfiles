@@ -8,9 +8,11 @@
 {{ end }}
 {{ if (eq .chezmoi.os "windows") }}
 [gpg]
-	program = C:\\Users\\caden\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin\\gpg.exe
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
 [credential "helperselector"]
 	selected = manager-core
+[core]
+  sshCommand = C:/Windows/System32/OpenSSH/ssh.exe
 {{ end }}
 [commit]
 	gpgsign = true

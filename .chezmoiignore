@@ -1,15 +1,13 @@
 readme.md
 scoopfile.json
 Brewfile
-dot_config/neofetch/m1-max.png
 
-{{ if ne .chezmoi.os "windows" }}
-dot_config/iterm2/*
-dot_zshrc
-dot_oh-my-zsh
-empty_dot_hushlogin
+{{ if eq .chezmoi.os "windows" }}
+.config/iterm2/**
+.zshrc
+.hushlogin
 {{ end }}
 
-{{ if ne .chezmoi.os "darwin" }}
-
+{{ if eq .chezmoi.os "darwin" }}
+Documents/**
 {{ end }}

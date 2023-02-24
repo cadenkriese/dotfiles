@@ -9,7 +9,14 @@ print_info() {
     info "Shell" shell &
     info "Theme" theme &
     info "Terminal" term &
+    {{ if (eq .chezmoi.os "windows") }}
+    info "CPU" cpu &
+    info "GPU" gpu &
+    {{ end }}
+    {{ if (eq .chezmoi.os "darwin") }}
     info "Chip" cpu &
+    {{ end }}
+
     info "Memory" memory &
     
     wait
