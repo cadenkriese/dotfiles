@@ -23,13 +23,10 @@ export EDITOR="cot -w"
 alias cat="bat"
 alias ls="exa --color=auto"
 alias md="open /Applications/Markdown\ Editor.app/"
-# The cdf alias requires single quotes to execute the $()
-# whenever the alias is run instead of when it's defined.
-# The sequences of '\'' are to insert a literal '
-alias cdf='cd "$(osascript \
-	-e '\''tell application "Finder"'\'' \
-	-e '\''return POSIX path of (insertion location as alias)'\'' \
-	-e '\''end tell'\'')"'
+# '\'' inserts a single literal ', \' needs to be enclosed in '' to escape and enter the string
+# There is an extra ' at the end to close the
+alias pfd='osascript -e '\''tell application "Finder" to return POSIX path of (insertion location as alias)'\'
+alias cdf='cd $(pfd)'
 
 # History cleaning
 setopt HIST_IGNORE_SPACE
