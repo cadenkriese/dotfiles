@@ -12,15 +12,17 @@ export EDITOR="cot -w"
 alias cat="bat"
 alias ls="exa --color=auto"
 alias md="open /Applications/Markdown\ Editor.app/"
-# '\'' inserts a single literal ', \' needs to be enclosed in '' to escape and enter the string
-# There is an extra ' at the end to close the
-alias pfd='osascript -e '\''tell application "Finder" to return POSIX path of (insertion location as alias)'\'
+# '\'' inserts a single literal '
+# \' needs to be enclosed in '' to escape and enter the string
+# There is an extra ' at the end to close the alias definition
+alias pfd='osascript -e '\''tell application "Finder" to return POSIX path of (insertion location as alias)'\'''
 alias cdf='cd $(pfd)'
+alias ofd='open .'
 
 # History cleaning
 setopt HIST_IGNORE_SPACE
 
-# ZSH Syntax highlighting
+# ZSH Syntax Highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # z.lua Folder Navigation
 eval "$(lua $(brew --prefix z.lua)/share/z.lua/z.lua --init zsh)"
