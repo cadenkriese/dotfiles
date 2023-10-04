@@ -4,14 +4,6 @@ export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="/opt/homebrew/lib/ruby/gems/3.2.0/bin:$PATH"
 export PATH="/opt/homebrew/opt/python@3.11/libexec/bin:$PATH"
-export PATH="$HOME/Library/flutter/bin:$PATH"
-export PATH="$HOME/.pub-cache/bin:$PATH"
-
-export ANDROID_SDK_ROOT="/opt/homebrew/share/android-commandlinetools"
-if [ -d $ANDROID_SDK_ROOT ]
-then
-  PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/platform-tools:$PATH"
-fi
 
 export ZSH_COMPDUMP=$HOME/cache/.zcompdump-$HOST
 export EDITOR="cot -w"
