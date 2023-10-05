@@ -5,7 +5,6 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="/opt/homebrew/lib/ruby/gems/3.2.0/bin:$PATH"
 export PATH="/opt/homebrew/opt/python@3.12/libexec/bin:$PATH"
 
-export ZSH_COMPDUMP=$HOME/cache/.zcompdump-$HOST
 export EDITOR="cot -w"
 
 # Aliases
@@ -16,13 +15,14 @@ alias md="open /Applications/Markdown\ Editor.app/"
 # \' needs to be enclosed in '' to escape and enter the string
 # There is an extra ' at the end to close the alias definition
 alias pfd='osascript -e '\''tell application "Finder" to return POSIX path of (insertion location as alias)'\'''
-alias ofd='open .'
 alias cdf="cd '$(pfd)'"
+alias ofd="open ."
 
 # History cleaning
 setopt HIST_IGNORE_SPACE
 
-# ZSH Syntax Highlighting
+# zsh-syntax-highlighting & zsh-autosuggestions
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # z.lua Folder Navigation
 eval "$(lua $(brew --prefix z.lua)/share/z.lua/z.lua --init zsh)"
