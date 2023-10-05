@@ -20,6 +20,7 @@ brew 'poetry'
 # Shell
 brew 'zsh'
 brew 'zsh-syntax-highlighting'
+brew 'zsh-autosuggestions'
 brew 'starship'
 
 # Command Line Tools
@@ -66,7 +67,6 @@ cask 'raycast'
 mas 'Fantastical', id: 975937182
 
 # School
-cask 'google-chrome'
 cask 'slack'
 cask 'zoom'
 mas 'GoodNotes', id: 1444383602
