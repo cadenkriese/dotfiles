@@ -10,7 +10,6 @@ export EDITOR="cot -w"
 # Aliases
 alias cat="bat"
 alias ls="exa --color=auto"
-alias md="open /Applications/Markdown\ Editor.app/"
 # '\'' inserts a single literal '
 # \' needs to be enclosed in '' to escape and enter the string
 # There is an extra ' at the end to close the alias definition

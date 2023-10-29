@@ -43,16 +43,13 @@ brew 'ffmpeg'
 # ------ Applications ------
 
 # Art & Design
-cask 'blender'
 mas 'Pixelmator Pro', id: 1289583905
-mas 'Shapr3D', id: 1091675654
-mas 'Vectornator', id: 1219074514
 
 # Development Tools
 cask 'coteditor'
 cask 'docker'
 cask 'gpg-suite-no-mail'
-#cask 'intellij-idea'
+cask 'intellij-idea'
 cask 'iterm2-beta'
 cask 'tower'
 cask 'transmit'
