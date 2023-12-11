@@ -1,4 +1,4 @@
-# Taps
+# ------      Taps      ------
 tap 'homebrew/bundle'
 tap 'homebrew/cask-versions'
 tap 'homebrew/services'
@@ -15,7 +15,6 @@ brew 'rustup-init'
 # Development tools
 brew 'git'
 brew 'gradle'
-brew 'poetry'
 
 # Shell
 brew 'zsh'
@@ -45,9 +44,9 @@ brew 'ffmpeg'
 # Art & Design
 mas 'Pixelmator Pro', id: 1289583905
 
-# Development Tools
+# Developer Tools
 cask 'coteditor'
-cask 'docker'
+cask 'orbstack'
 cask 'gpg-suite-no-mail'
 cask 'intellij-idea'
 cask 'iterm2-beta'
@@ -55,7 +54,6 @@ cask 'tower'
 cask 'transmit'
 cask 'visual-studio-code'
 mas 'Developer', id: 640199958
-mas 'HextEdit', id: 1557247094
 
 # Productivity
 cask 'grammarly-desktop'

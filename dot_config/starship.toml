@@ -3,15 +3,19 @@ add_newline = false
 [aws]
 disabled = true
 
-[python]
-python_binary = ["python3", "python", "python2"]
-
 [cmd_duration]
 format = 'in [$duration]($style)'
 style = '#abaebe'
 
-[swift]
-symbol = '􀫊  '
+[docker_context]
+symbol = '🟣 '
+style = '#764CC3 bold'
 
 [nodejs]
 symbol = '🕸  '
+
+[python]
+python_binary = ["python3", "python", "python2"]
+
+[swift]
+symbol = '􀫊  '
