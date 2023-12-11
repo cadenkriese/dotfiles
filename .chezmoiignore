@@ -1,6 +1,7 @@
+Brewfile
+install.sh
 readme.md
 scoopfile.json
-Brewfile
 
 {{ if eq .chezmoi.os "windows" }}
 .config/iterm2/**
