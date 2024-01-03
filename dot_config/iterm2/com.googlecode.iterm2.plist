@@ -15,6 +15,8 @@
 	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
+	<key>AutoCommandHistory</key>
+	<false/>
 	<key>BracketedPasteMode</key>
 	<true/>
 	<key>CheckTestRelease</key>
@@ -2220,6 +2222,8 @@
 			<false/>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
+			<key>Place Prompt at First Column</key>
+			<false/>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Changeable</key>
@@ -2315,6 +2319,8 @@
 			<key>Shortcut</key>
 			<string>A</string>
 			<key>Show Mark Indicators</key>
+			<false/>
+			<key>Show Offscreen Command line</key>
 			<false/>
 			<key>Show Status Bar</key>
 			<true/>
@@ -2586,7 +2592,7 @@
 	<integer>2</integer>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Profiles</string>
+		<string>Codecierge</string>
 	</array>
 	<key>URLHandlersByGuid</key>
 	<dict>

@@ -25,5 +25,8 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # z.lua Folder Navigation
 eval "$(lua $(brew --prefix z.lua)/share/z.lua/z.lua --init zsh)"
+# iTerm 2 Shell Integration
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 eval "$(starship init zsh)"
+
