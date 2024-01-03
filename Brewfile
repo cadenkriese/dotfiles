@@ -73,9 +73,10 @@ mas 'GoodNotes', id: 1444383602
 # Miscellaneous
 cask '1password'
 cask 'appcleaner'
+cask 'cleanshot'
 cask 'discord'
 cask 'iina'
 cask 'keka'
 cask 'replacicon'
-cask 'setapp'
 cask 'stats'
+cask 'swish'
