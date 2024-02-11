@@ -2,7 +2,6 @@
 tap 'homebrew/bundle'
 tap 'homebrew/cask-versions'
 tap 'homebrew/services'
-tap 'oven-sh/bun'
 
 
 # ------ Formulae / SDKs ------
@@ -10,9 +9,8 @@ tap 'oven-sh/bun'
 # Languages
 brew 'python'
 cask 'temurin'
-brew 'rustup-init'
 
-# Development tools
+# Development Tools
 brew 'git'
 brew 'gradle'
 
