@@ -1,13 +1,6 @@
-# ------      Taps      ------
-tap 'homebrew/bundle'
-tap 'homebrew/cask-versions'
-tap 'homebrew/services'
-
-
 # ------ Formulae / SDKs ------
 
 # Languages
-brew 'python'
 cask 'temurin'
 
 # Development Tools
@@ -21,7 +14,7 @@ brew 'zsh-autosuggestions'
 brew 'starship'
 
 # Command Line Tools
-brew 'exa'
+brew 'eza'
 brew 'chezmoi'
 brew 'curl'
 brew 'gh'
@@ -46,8 +39,7 @@ mas 'Pixelmator Pro', id: 1289583905
 cask 'coteditor'
 cask 'orbstack'
 cask 'gpg-suite-no-mail'
-cask 'intellij-idea'
-cask 'iterm2-beta'
+cask 'iterm2@beta'
 cask 'tower'
 cask 'transmit'
 cask 'visual-studio-code'
@@ -58,16 +50,6 @@ cask 'grammarly-desktop'
 cask 'raycast'
 mas 'Fantastical', id: 975937182
 
-# School
-cask 'slack'
-cask 'zoom'
-mas 'GoodNotes', id: 1444383602
-
-# Web
-#mas '1Blocker', id: 1365531024
-#mas 'Grammarly for Safari', id: 1462114288
-#mas '1Password for Safari', id: 1569813296
-
 # Miscellaneous
 cask '1password'
 cask 'appcleaner'
@@ -75,6 +57,5 @@ cask 'cleanshot'
 cask 'discord'
 cask 'iina'
 cask 'keka'
-cask 'replacicon'
 cask 'stats'
 cask 'swish'
