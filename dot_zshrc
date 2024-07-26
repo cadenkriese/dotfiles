@@ -14,7 +14,7 @@ alias ls="eza --color=auto"
 # \' needs to be enclosed in '' to escape and enter the string
 # There is an extra ' at the end to close the alias definition
 alias pfd='osascript -e '\''tell application "Finder" to return POSIX path of (insertion location as alias)'\'''
-alias cdf='cd $(pfd)'
+alias cdf='cd "$(pfd)"'
 alias ofd="open ."
 
 # History cleaning
