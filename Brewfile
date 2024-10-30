@@ -46,7 +46,6 @@ cask 'visual-studio-code'
 mas 'Developer', id: 640199958
 
 # Productivity
-cask 'grammarly-desktop'
 cask 'raycast'
 mas 'Fantastical', id: 975937182
 
@@ -54,7 +53,6 @@ mas 'Fantastical', id: 975937182
 cask '1password'
 cask 'appcleaner'
 cask 'cleanshot'
-cask 'discord'
 cask 'iina'
 cask 'keka'
 cask 'stats'
